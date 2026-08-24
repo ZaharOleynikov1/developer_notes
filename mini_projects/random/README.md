@@ -19,7 +19,6 @@ import random
 
 ## Functions
 
-
 > random.uniform(a, b)  
 
 Возвращает псевдослучайное число с плавающей   запятой в      диапазоне от a до b. 
