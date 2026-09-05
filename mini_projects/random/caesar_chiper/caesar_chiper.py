@@ -37,14 +37,12 @@ def text_valid(text):
     
     if alphabet == 'Ru':
         for i in text:
-            while i not in RU_LOWER or i not in RU_UPPER:
-                return text_valid(
-                    input(
-                        'В введеном тексте есть буквы из английского алфавита'
-                    )
-            )
+            while i not in RU_UPPER or i not in RU_LOWER:
+                text = input(
+                    'В введеном тексте есть буквы из английского алфавита'
+                )
 
-            return text
+        return text
 
     if alphabet == 'En':
         for i in text:
